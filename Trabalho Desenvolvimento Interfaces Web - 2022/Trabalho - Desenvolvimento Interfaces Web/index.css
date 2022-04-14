@@ -93,7 +93,7 @@
   }
   
   .titulo4 {
-      padding-top: 15px;
+      padding-top: 0px;
       padding-bottom: 10px;
       font-weight: bold;
   }
@@ -132,6 +132,7 @@
   .titulo5 {
       font-weight: bold;
       padding-top: 15px;
+      padding-bottom: 10px;
   }
   /*MAIN 4*/
   
