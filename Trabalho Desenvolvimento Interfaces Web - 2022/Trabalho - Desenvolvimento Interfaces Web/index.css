@@ -1,0 +1,246 @@
+  header {}
+  
+  .main1 {
+      margin: 0 auto;
+  }
+  
+  .main2 {
+      padding-bottom: 15px;
+  }
+  
+  .main3 {}
+  /*CABEÇALHO*/
+  
+  .logo {
+      width: 60px;
+  }
+  
+  #cabeçalho {
+      font-size: 17px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  /*MAIN1*/
+  
+  .textoPI {
+      font-size: 18px;
+  }
+  
+  .card-img-top {
+      width: 287px;
+      height: 480px;
+  }
+  
+  .estrelas {
+      margin-bottom: 15px;
+  }
+  
+  .estrelas input[type=radio] {
+      display: none;
+  }
+  
+  .estrelas label i.fa {
+      font-size: 2em
+  }
+  
+  .estrelas label i.fa:before {
+      content: '\f005';
+      color: #FC0;
+  }
+  
+  .estrelas input[type=radio]:checked~label i.fa:before {
+      color: #CCC;
+  }
+  
+  .titulo1 {
+      padding-bottom: 15px;
+      text-align: center;
+      font-weight: bold;
+  }
+  /*MAIN2*/
+  /* MAIN 3 */
+  
+  p {
+      text-indent: 0;
+  }
+  
+  .entrevistas {
+      font-size: 22px;
+      font-style: unset;
+      text-indent: 0;
+      margin-bottom: 0px;
+  }
+  
+  .diretor {
+      font-size: 16px;
+      text-indent: 0;
+      margin-top: 0px;
+  }
+  
+  .titulo2 {
+      padding-top: 15px;
+      font-weight: bold;
+  }
+  
+  #categoriasmain2 {
+      padding-top: 30px;
+  }
+  
+  .titulo3 {
+      padding-top: 15px;
+      font-weight: bold;
+  }
+  
+  .titulo4 {
+      padding-top: 15px;
+      padding-bottom: 10px;
+      font-weight: bold;
+  }
+  
+  .card {
+      margin-top: 10px;
+      text-align: center;
+      width: 20rem;
+      margin-right: 30px;
+      margin-left: 30px;
+  }
+  
+  .cards {
+      padding-top: 10px;
+      padding: 10px;
+      justify-content: center;
+  }
+  
+  .card_text {
+      font-size: medium;
+  }
+  
+  .cards-deck {
+      justify-content: left;
+      font-family: monospace;
+  }
+  
+  #botao {
+      margin-top: 15px;
+  }
+  
+  .videofinais {
+      justify-content: center;
+  }
+  
+  .titulo5 {
+      font-weight: bold;
+      padding-top: 15px;
+  }
+  /*MAIN 4*/
+  
+  .titulo5 {
+      font-weight: bold;
+  }
+  
+  .titulo6 {
+      font-weight: bold;
+  }
+  
+  .titulo7 {
+      font-weight: bold;
+  }
+  
+  .titulo8 {
+      font-weight: bold;
+      margin-top: 25px;
+  }
+  
+  .partefinal {
+      display: inline;
+  }
+  
+  .imagensfinais {
+      width: 380px;
+  }
+  
+  .titulontfinal {
+      color: black;
+  }
+  
+  .paragrafontfinal {
+      color: black;
+  }
+  
+  #insta {
+      margin-right: 20px;
+  }
+  
+  #twitter {
+      margin-right: 20px;
+  }
+  
+  @media (max-width: 3480px) {
+      .videomain1 {
+          width: 100%;
+          align-items: center;
+      }
+  }
+  
+  @media (max-width: 750px) {
+      .videomain1 {
+          width: 100%;
+          align-items: center;
+          margin-right: auto;
+          margin-left: auto;
+          display: block;
+      }
+  }
+  
+  @media (max-width: 1490px) {
+      .videomain1 {
+          width: 100%;
+          align-items: center;
+      }
+  }
+  
+  @media (max-width: 620px) {
+      .videomain1 {
+          width: 100%;
+          align-items: center;
+          margin-right: auto;
+          margin-left: auto;
+          display: block;
+      }
+  }
+  
+  @media (max-width: 750px) {
+      .videomain3 {
+          width: 100%;
+          align-items: center;
+          margin-right: auto;
+          margin-left: auto;
+          display: block;
+      }
+  }
+  
+  @media (max-width: 1430px) {
+      .videomain3 {
+          width: 100%;
+          align-items: center;
+      }
+  }
+  
+  @media (max-width: 620px) {
+      .videomain3 {
+          width: 100%;
+          align-items: center;
+          margin-right: auto;
+          margin-left: auto;
+          display: block;
+      }
+  }
+  
+  @media (max-width: 768px) {
+      .imagensfinais {
+          width: 100%;
+      }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+      .videofinais {}
+  }
