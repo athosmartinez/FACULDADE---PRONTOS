@@ -68,12 +68,14 @@
       font-style: unset;
       text-indent: 0;
       margin-bottom: 0px;
+      text-align: center;
   }
   
   .diretor {
       font-size: 16px;
       text-indent: 0;
       margin-top: 0px;
+      text-align: center;
   }
   
   .titulo2 {
