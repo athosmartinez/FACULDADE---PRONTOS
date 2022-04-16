@@ -30,6 +30,11 @@
       height: 480px;
   }
   
+  .card-img-top2 {
+      width: 319px;
+      height: 350px;
+  }
+  
   .estrelas {
       margin-bottom: 15px;
   }
@@ -197,12 +202,12 @@
   /*VIDEOS*/
   
   .videomain1 {
-      border: 4px solid black;
+      border: 4px solid gray;
       border-image: round;
   }
   
   .videomain3 {
-      border: 4px solid red;
+      border: 4px solid black;
       border-image: round;
   }
   
