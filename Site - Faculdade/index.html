@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Trabalho - Desenvolvimento Interfaces Web</title>
+</head>
+
+<body>
+
+    <header class="p-3 mb-3 border-bottom">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <img class="logo" src="imgs/logotipo.jpg" alt="logotipo">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+                </a>
+
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="#" class="nav-link px-2 link-dark">lançamentos</a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">em destaque</a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">avaliações</a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">entrevistas & makingof</a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">novidades</a></li>
+                </ul>
+
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                    <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                </form>
+
+                <div class="dropdown text-end">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="container-fluid main1">
+            <h1 class="titulo1">Lançamentos</h1>
+        </section>
+        <section class="main1">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-xl-6 col-md-12 col-lg-12">
+                                <iframe class="videomain1" width="830" height="330" src="https://www.youtube.com/embed/YA_T5kar83Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+
+                            <div id="textomain1" class="col-xl-6 col-md-12 col-lg-12">
+                                <h2>As aventuras de PI</h2>
+                                <div class="textoPI">
+                                    <p><b>Sinopse:</b> Pi e sua família decidem ir para o Canadá depois de fechar o zoológico da família. A embarcação deles naufraga, e o jovem sobrevive junto com alguns animais, incluindo um temível tigre de Bengala, com
+                                        o qual desenvolve uma ligação.</p>
+                                    <p><b>Diretor:</b> Ang Lee | <b>Roteirista:</b> Yann Martel | <b>Estreia:</b> 2012</p>
+
+                                    <p><b>Elenco:</b> Suraj Sharma | Irrfan Khan | Tabu | Gautam Belur</p>
+                                    <p><b> Se você já assistei deixe sua avaliação:</b></p>
+                                </div>
+                                <div class="estrelas">
+                                    <input type="radio" id="cm_star-empty" name="fb" value="" checked/>
+                                    <label for="cm_star-1"><i class="fa"></i></label>
+                                    <input type="radio" id="cm_star-1" name="fb" value="1" />
+                                    <label for="cm_star-2"><i class="fa"></i></label>
+                                    <input type="radio" id="cm_star-2" name="fb" value="2" />
+                                    <label for="cm_star-3"><i class="fa"></i></label>
+                                    <input type="radio" id="cm_star-3" name="fb" value="3" />
+                                    <label for="cm_star-4"><i class="fa"></i></label>
+                                    <input type="radio" id="cm_star-4" name="fb" value="4" />
+                                    <label for="cm_star-5"><i class="fa"></i></label>
+                                    <input type="radio" id="cm_star-5" name="fb" value="5" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-xl-6 col-md-12 col-lg-12">
+                                <iframe class="videomain1" width="830" height="370" src="https://www.youtube.com/embed/mDGV5UucTu8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+
+                            <div id="textomain1" class="col-xl-6 col-md-12 col-lg-12">
+                                <h2>Corra!</h2>
+                                <div class="textoPI">
+                                    <p><b>Sinopse:</b> Chris é um jovem negro que está prestes a conhecer a família de sua namorada, a caucasiana Rose. A princípio, ele acredita que o comportamento excessivamente amoroso por parte da família dela é uma tentativa
+                                        de lidar com o relacionamento de Rose com um rapaz de sua etnia, mas, com o tempo, ele percebe que a família esconde algo muito mais perturbador.</p>
+                                    <p><b>Diretor:</b> Jordan Peele | <b>Roteirista:</b> Jasum Blum | <b>Estreia:</b> 2017</p>
+
+                                    <p><b>Elenco:</b> Daniel kaluuya | Allison Williams | Bradley Whitford | Catherine Keener</p>
+                                    <p><b> Se você já assistei deixe sua avaliação:</b></p>
+                                </div>
+                                <div class="estrelas">
+                                    <input type="radio" id="cm_star-empty" name="fb" value="" checked/>
+                                    <label for="cm_star-1"><i class="fa"></i></label>
+                                    <input type="radio" id="cm_star-1" name="fb" value="1" />
+                                    <label for="cm_star-2"><i class="fa"></i></label>
+                                    <input type="radio" id="cm_star-2" name="fb" value="2" />
+                                    <label for="cm_star-3"><i class="fa"></i></label>
+                                    <input type="radio" id="cm_star-3" name="fb" value="3" />
+                                    <label for="cm_star-4"><i class="fa"></i></label>
+                                    <input type="radio" id="cm_star-4" name="fb" value="4" />
+                                    <label for="cm_star-5"><i class="fa"></i></label>
+                                    <input type="radio" id="cm_star-5" name="fb" value="5" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-xl-6 col-md-12 col-lg-12">
+                                <iframe class="videomain1" width="830" height="350" src="https://www.youtube.com/embed/CyiiEJRZjSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+
+                            <div id="textomain1" class="col-xl-6 col-md-12 col-lg-12">
+                                <h2>Homem-Aranha: Sem Volta Para Casa</h2>
+                                <div class="textoPI">
+                                    <p><b>Sinopse:</b>Pela primeira vez, o Homem-Aranha é desmascarado, o que não o deixa separar a vida pessoal da atuação como um dos maiores super-heróis do mundo. Peter Parker pede ajuda ao Doutor Estranho, mas os efeitos
+                                        de mexer com as lógicas do multiverso podem ser catastróficos. As coisas complicam e muito com a chegada de vilões do multiverso.</p>
+                                    <p><b>Diretor:</b> Jon Wattss | <b>Roteirista:</b> Erik Sommers | <b>Estreia:</b> 2021</p>
+
+                                    <p><b>Elenco:</b> Tobey Maguire | Tom Hilland | Zendaya | Andrew Garfield</p>
+                                    <p><b> Se você já assistei deixe sua avaliação:</b></p>
+                                </div>
+                                <div class="estrelas">
+                                    <input type="radio" id="cm_star-empty" name="fb" value="" checked/>
+                                    <label for="cm_star-1"><i class="fa"></i></label>
+                                    <input type="radio" id="cm_star-1" name="fb" value="1" />
+                                    <label for="cm_star-2"><i class="fa"></i></label>
+                                    <input type="radio" id="cm_star-2" name="fb" value="2" />
+                                    <label for="cm_star-3"><i class="fa"></i></label>
+                                    <input type="radio" id="cm_star-3" name="fb" value="3" />
+                                    <label for="cm_star-4"><i class="fa"></i></label>
+                                    <input type="radio" id="cm_star-4" name="fb" value="4" />
+                                    <label for="cm_star-5"><i class="fa"></i></label>
+                                    <input type="radio" id="cm_star-5" name="fb" value="5" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class=" rounded-pill btn-dark danger carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class=" rounded-pill btn-dark danger carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+            </div>
+        </section>
+
+
+        </section>
+
+        <section class="container-fluid main2">
+            <div class="row">
+                <div class="col-9">
+                    <h1 class="titulo2">Em destaque</h1>
+                </div>
+                <div id="categoriasmain2" class="col-3">
+                    <select class="form-select" aria-label="Default select example">
+            <option selected>CATEGORIAS: Todos</option>
+            <option value="1">Aventura</option>
+            <option value="2">Romance</option>
+            <option value="3">Comédia</option>
+          </select>
+                </div>
+            </div>
+            <div class="container-fluid d-flex flex-wrap cards">
+                <div class="row">
+                    <div class="col-xl-3 col-md-6 col-lg-6 col-sm-6">
+                        <div class="card" style="width: 18rem;">
+                            <img src="imgs/ossupeitos.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text1"><b>Os suspeitos - 2013 - Crime/Suspense</b></p>
+                                <a href="https://www.google.com/search?q=os+suspeitos&sxsrf=APq-WBt1oJZcqftG_GQQq7HWA59NK9eoCw%3A1649982229036&ei=FbtYYrz6Ae_E5OUP0-i74As&ved=0ahUKEwj82Jbl5pT3AhVvIrkGHVP0DrwQ4dUDCA8&uact=5&oq=os+suspeitos&gs_lcp=Cgdnd3Mtd2l6EAM6BAgjECc6DgguEIAEELEDEMcBENEDOgsIABCABBCxAxCDAToICAAQgAQQsQM6EQguEIAEELEDEMcBEKMCENQCOggIABCxAxCDAToFCAAQgAQ6CAguELEDEIMBOgQILhBDOgsILhCABBCxAxCDAToICC4QgAQQsQM6CwguEIAEELEDENQCOgUILhCABDoICC4QgAQQ1AI6BwguENQCEEM6BAgAEAM6CwgAELEDEIMBEMkDOgcIABAKEMsBOgUIABDLAUoECEEYAEoECEYYAFAAWOwPYLUQaAFwAHgAgAGOAYgBmAySAQQwLjEymAEAoAEBwAEB&sclient=gws-wiz"
+                                    class="btn btn-primary">Visitar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-6 col-lg-6 col-sm-6">
+                        <div class="card" style="width: 18rem;">
+                            <img src="imgs/batman.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text"><b>Batman: O cavaleiro das trevas - 2008 - Ação/Aventura</b></p>
+                                <a href="https://www.google.com/search?q=batman+cavaleiro+das+trevas&oq=batman+cavale&aqs=edge.0.0i433i512j0i512j69i57j0i512l6.6595j0j9&sourceid=chrome&ie=UTF-8" class="btn btn-primary">Visitar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-lg-6 col-sm-6">
+                        <div class="card" style="width: 18rem;">
+                            <img src="imgs/detonaralph.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text"><b>Detona Ralph - 2012 - Comédia/Infantil</b></p>
+                                <a href="https://www.google.com/search?q=detona+ralph&source=lmns&bih=905&biw=1263&hl=pt-BR&sa=X&ved=2ahUKEwja48G714z3AhVdMLkGHTX-DrgQ_AUoAHoECAEQAA" class="btn btn-primary">Visitar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-lg-6 col-sm-6">
+                        <div class="card" style="width: 18rem;">
+                            <img src="imgs/uma aventura lego.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text"><b>Uma aventura LEGO - 2014 - Comédia/Infantil</b></p>
+                                <a href="https://www.google.com/search?q=uma+aventura+elgo&source=lmns&bih=905&biw=1280&hl=pt-BR&sa=X&ved=2ahUKEwj61_ze14z3AhXGNrkGHW2GDFMQ_AUoAHoECAEQAA" class="btn btn-primary">Visitar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button id="botao" type="button" class="btn btn-success">+ Carregar mais filmes</button>
+
+            <h1 class="titulo3">Ultimas avaliações</h1>
+
+
+            <div class="container-fluid d-flex flex-wrap cards">
+                <div class="card-deck">
+                    <div class="row">
+                        <div class="col-xl-4 col-md-6 col-lg-6 col-sm-6">
+                            <div class="card">
+                                <img class="card-img-top2" src="imgs/unnamed.png" alt="Imagem de capa do card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Joisias da Silva</h5>
+                                    <p class="card-text">O melhor filme da minha vida. Esse filme é ótimo, me filmagem e produção de um nível absurdo. Cada cena é de deixar de queixo caido, fomos eu e três amigos, todos nós adoramos.</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-emoji-frown" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                    <path d="M4.285 12.433a.5.5 0 0 0 .683-.183A3.498 3.498 0 0 1 8 10.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.498 4.498 0 0 0 8 9.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
+                                  </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-emoji-neutral" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                    <path d="M4 10.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7a.5.5 0 0 0-.5.5zm3-4C7 5.672 6.552 5 6 5s-1 .672-1 1.5S5.448 8 6 8s1-.672 1-1.5zm4 0c0-.828-.448-1.5-1-1.5s-1 .672-1 1.5S9.448 8 10 8s1-.672 1-1.5z"/>
+                                  </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-emoji-laughing-fill" viewBox="0 0 16 16">
+                                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM7 6.5c0 .501-.164.396-.415.235C6.42 6.629 6.218 6.5 6 6.5c-.218 0-.42.13-.585.235C5.164 6.896 5 7 5 6.5 5 5.672 5.448 5 6 5s1 .672 1 1.5zm5.331 3a1 1 0 0 1 0 1A4.998 4.998 0 0 1 8 13a4.998 4.998 0 0 1-4.33-2.5A1 1 0 0 1 4.535 9h6.93a1 1 0 0 1 .866.5zm-1.746-2.765C10.42 6.629 10.218 6.5 10 6.5c-.218 0-.42.13-.585.235C9.164 6.896 9 7 9 6.5c0-.828.448-1.5 1-1.5s1 .672 1 1.5c0 .501-.164.396-.415.235z"/>
+                                  </svg>
+
+                                    <p class="card-text"><small class="text-muted"><b>Sobre: </b>Batman: O cavaleiro das trevas - Postado em 02/03/2022</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-lg-6 col-sm-6">
+                            <div class="card">
+                                <img class="card-img-top2" src="imgs/unnamed.png" alt="Imagem de capa do card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Marcelo Silva</h5>
+                                    <p class="card-text">O filme é muito bom! Mesmo sendo um file de "desenho", eles me fez dar altas gargalhadas e lembrar de minha infância. Recomendo todo mundo assistir.</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-emoji-frown" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                    <path d="M4.285 12.433a.5.5 0 0 0 .683-.183A3.498 3.498 0 0 1 8 10.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.498 4.498 0 0 0 8 9.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
+                                  </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-emoji-neutral" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                    <path d="M4 10.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7a.5.5 0 0 0-.5.5zm3-4C7 5.672 6.552 5 6 5s-1 .672-1 1.5S5.448 8 6 8s1-.672 1-1.5zm4 0c0-.828-.448-1.5-1-1.5s-1 .672-1 1.5S9.448 8 10 8s1-.672 1-1.5z"/>
+                                  </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-emoji-laughing-fill" viewBox="0 0 16 16">
+                                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM7 6.5c0 .501-.164.396-.415.235C6.42 6.629 6.218 6.5 6 6.5c-.218 0-.42.13-.585.235C5.164 6.896 5 7 5 6.5 5 5.672 5.448 5 6 5s1 .672 1 1.5zm5.331 3a1 1 0 0 1 0 1A4.998 4.998 0 0 1 8 13a4.998 4.998 0 0 1-4.33-2.5A1 1 0 0 1 4.535 9h6.93a1 1 0 0 1 .866.5zm-1.746-2.765C10.42 6.629 10.218 6.5 10 6.5c-.218 0-.42.13-.585.235C9.164 6.896 9 7 9 6.5c0-.828.448-1.5 1-1.5s1 .672 1 1.5c0 .501-.164.396-.415.235z"/>
+                                  </svg>
+                                    <p class="card-text"><small class="text-muted"><b>Sobre: </b>Detona Ralph - Postado em 07/05/2021</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6 col-lg-6 col-sm-6">
+                            <div class="card">
+                                <img class="card-img-top2" src="imgs/unnamed.png" alt="Imagem de capa do card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mariana Stuart</h5>
+                                    <p class="card-text">Odiei o filme lego, nunca vi fime tão ruim e sem nexo que nem esse! Nunca recomendaria pra ninguem, filme sem contexto e mega sem graça! Maior arrepedimento ter pago pra ter ido ver.</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-emoji-frown-fill" viewBox="0 0 16 16">
+                                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm-2.715 5.933a.5.5 0 0 1-.183-.683A4.498 4.498 0 0 1 8 9.5a4.5 4.5 0 0 1 3.898 2.25.5.5 0 0 1-.866.5A3.498 3.498 0 0 0 8 10.5a3.498 3.498 0 0 0-3.032 1.75.5.5 0 0 1-.683.183zM10 8c-.552 0-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5S10.552 8 10 8z"/>
+                                  </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-emoji-neutral" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                    <path d="M4 10.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7a.5.5 0 0 0-.5.5zm3-4C7 5.672 6.552 5 6 5s-1 .672-1 1.5S5.448 8 6 8s1-.672 1-1.5zm4 0c0-.828-.448-1.5-1-1.5s-1 .672-1 1.5S9.448 8 10 8s1-.672 1-1.5z"/>
+                                  </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-emoji-laughing" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                    <path d="M12.331 9.5a1 1 0 0 1 0 1A4.998 4.998 0 0 1 8 13a4.998 4.998 0 0 1-4.33-2.5A1 1 0 0 1 4.535 9h6.93a1 1 0 0 1 .866.5zM7 6.5c0 .828-.448 0-1 0s-1 .828-1 0S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 0-1 0s-1 .828-1 0S9.448 5 10 5s1 .672 1 1.5z"/>
+                                  </svg>
+
+
+                                    <p class="card-text"><small class="text-muted"><b>Sobre: </b>Uma aventura LEGO - Postado em 02/03/2022</small></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <button id="botao" type="button" class="btn btn-success">+ Carregar mais avaliações</button>
+        </section>
+
+
+
+        <section class="container-fluid main3">
+            <div class="col-lg-12">
+                <h1 class="titulo4">Entrevistas & Making of</h1>
+            </div>
+            <div class="container-fluid d-flex flex-wrap cards">
+                <div class="videosfinais">
+                    <div class="row">
+                        <div class="col-xl-8 col-md-12 col-xxl-4">
+                            <iframe class="videomain3" width="400" height="315" src="https://www.youtube.com/embed/1UqzCP2xK9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p class="entrevistas"><b>Batman: O cavalheiro das trevas</b></p>
+                            <p class="diretor"><b>Diretor: </b>Christopher Nolan | <b> Estreia: </b>2008</p>
+                        </div>
+                        <div class="col-xl-8 col-md-12 col-xxl-4">
+                            <iframe class="videomain3" width="400" height="315" src="https://www.youtube.com/embed/wKjkJkPdC58" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p class="entrevistas"><b>Batman: O cavalheiro das trevas</b></p>
+                            <p class="diretor"><b>Diretor: </b>Christopher Nolan | <b> Estreia: </b>2008</p>
+                        </div>
+                        <div class="col-xl-8 col-md-12 col-xxl-4">
+                            <iframe class="videomain3" width="400" height="315" src="https://www.youtube.com/embed/58EdARx248c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> 
+                        </iframe>
+                            <p class="entrevistas"><b>Batman: O cavalheiro das trevas</b></p>
+                            <p class="diretor"><b>Diretor: </b>Christopher Nolan | <b> Estreia: </b>2008</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button id="botao" type="button" class="btn btn-success">+ Carregar mais filmes</button>
+        </section>
+        <section class="container-fluid main3">
+
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-xl-8">
+                        <h1 class="titulo5">Novidades</h1>
+                        <div class="d-md-flex">
+                            <img class="imagensfinais" src="imgs/noticiabatman.jpg">
+                            <a href="https://www.omelete.com.br/batman/danny-devito-collin-farrell-pinguim" style="text-decoration:none">
+                                <h1 class="titulontfinal">Danny DeVito elogia Pinguim de Colin Farrell, mas prefere Batman de Tim Burton</h1>
+                                <p class="paragrafontfinal">O astro Danny DeVito elogiou a atuação de Colin Farrell como Pinguim no Batman de Matt Reeves, mas disse que ainda prefere o filme de Tim Burton, Batman: O Retorno. "Sim eu fiz. Achei que Colin fez um ótimo trabalho”, disse
+                                    DeVito ao The Wrap. “Certamente um meio diferente. Eu acho que foi um Batman mais ousado, sério e gângster. Você tira o chapéu para qualquer um que fica sentado na cadeira de maquiagem por tanto tempo. Eu fiz isso com
+                                    o Pinguim e adorei.”
+                                    <br>
+                                    <br>
+                                    <button type="button" class="rounded-pill btn btn-primary btn-sm">Filmes</button>
+                                    <button type="button" class="rounded-pill btn btn-success btn-sm">Batman</button>
+                                    <button type="button" class="rounded-pill btn btn-danger btn-sm">Elogio</button>
+                                </p>
+
+                            </a>
+
+                        </div>
+
+                        <div class="d-md-flex">
+                            <img class="imagensfinais" src="imgs/noticiahomenagem.jpg">
+                            <a href="https://www.adorocinema.com/noticias/series/noticia-163113/" style="text-decoration:none">
+                                <h1 class="titulontfinal">Cavaleiro da Lua homenageia Gaspard Ulliel; ator morreu aos 37 anos</h1>
+                                <p class="paragrafontfinal">Cavaleiro da Lua, série da Marvel no Disney+, dedicou seu terceiro episódio, intitulado "O Tipo Amigável", ao ator Gaspard Ulliel, que morreu no começo de 2022 aos 37 anos de idade. Ele foi vítima de um grave acidente de
+                                    ski nos Alpes franceses e acabou não sobrevivendo aos ferimentos que sofreu na cabeça.
+                                    <br>
+                                    <br>
+                                    <button type="button" class="rounded-pill btn btn-primary btn-sm">Filmes</button>
+                                    <button type="button" class="rounded-pill btn btn-success btn-sm">Morte</button>
+                                    <button type="button" class="rounded-pill btn btn-danger btn-sm">Homenagem</button>
+                                </p>
+
+                            </a>
+
+                        </div>
+
+                        <div class="d-md-flex">
+                            <img class="imagensfinais" src="imgs/marvel.jpg">
+                            <a href="https://br.ign.com/cinema/97709/feature/diretores-criticas-marvel-filmes-herois-scorsese-coppola" style="text-decoration:none">
+                                <h1 class="titulontfinal">Concorda com eles? Diretores que já criticaram a Marvel e filmes de heróis</h1>
+                                <p class="paragrafontfinal">Embora seja quase uma unanimidade entre fãs, há quem desgoste do que o Universo Cinematográfico da Marvel (MCU) tem feito pelo cinema. A Marvel, DC e outras marcas tomaram conta das grandes bilheterias e discussões, são
+                                    o que gera hype e leva as pessoas ao cinema mesmo após uma avassaladora pandemia. Como tudo que está em evidência, sempre há o outro lado, aquele que não aprecia muito e faz críticas (ora leves, ora mais duras) ao formato
+                                    que a Marvel Studios (principalmente ela) estabeleceu no cinema.
+                                    <br>
+                                    <br>
+                                    <button type="button" class="rounded-pill btn btn-primary btn-sm">Filmes</button>
+                                    <button type="button" class="rounded-pill btn btn-success btn-sm">Marvel</button>
+                                    <button type="button" class="rounded-pill btn btn-danger btn-sm">Diretor</button>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl-4">
+                        <h1 class="titulo6">Sobre</h1>
+                        <p>
+                            Somos um blog sobre notícias de filmes e tudo relacionado ao mundo do cinema! Sempre trazemos com a maior velocidade possível todos os assustos que estão rolando nesse querido e tão amado assunto. É um enorme prazer para nós poder te manter atualizado,adoramos
+                            e somos entusiastas da cena de filmes do mundo todo. Atualmente nossa equipe está toda localizada na Cálifornia, para sempre termos de antemao as noticias.
+                        </p>
+                        <p>
+                            Caso queria nós chamar para dar ideias sobre alterações em nosso site ou de novas funcionalidades, basta nos enviar uma mensagem para <b>cinefilmes@outlook.com</b> ou <b>(+55) 96653-9087</b>.
+
+
+                        </p>
+                        <h1 class="titulo7">Editorial</h1>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-file-person-fill" viewBox="0 0 16 16">
+                        <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11z"/>
+                      </svg>
+                        <h4><b>Redator:</b> Athos Martinez Andrade</b>
+                        </h4>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-file-person-fill" viewBox="0 0 16 16">
+                        <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11z"/>
+                      </svg>
+                        <h4><b>Pesquisa:</b> Athos Martinez Andrade</b>
+                        </h4>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-file-person-fill" viewBox="0 0 16 16">
+                        <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11z"/>
+                      </svg>
+                        <h4><b>Gerente geral:</b> Athos Martinez Andrade</b>
+                        </h4>
+                        <h1 class="titulo8">Redes sociais:</h1>
+                        <svg id="insta" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                      </svg>
+                        <svg id="twitter" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                      </svg>
+                        <svg id="facebook" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                      </svg>
+                    </div>
+
+                </div>
+        </section>
+    </main>
+    <div class="container ">
+        <footer id="sticky-footer" class="flex-shrink-0 py-4  text-black-50">
+            <div class="row">
+                <div class="container text-start col-6">
+                    <small>Copyright 2022 &copy; Disciplina de Desenvolvimento de Interfaces Web - <b>ICEI PUC Minas</b></small>
+
+                    <img class="logo" src="imgs/logotipo.jpg" alt="logotipo">
+
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>

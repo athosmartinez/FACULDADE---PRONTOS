@@ -1,0 +1,295 @@
+.main1 {
+    margin: 10px
+}
+
+.main2 {
+    padding-bottom: 15px;
+}
+
+
+/*CABEÇALHO*/
+
+.logo {
+    width: 60px;
+}
+
+#cabeçalho {
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/*MAIN1*/
+
+.textoPI {
+    font-size: 18px;
+}
+
+.card-img-top {
+    width: 287px;
+    height: 480px;
+}
+
+.card-img-top2 {
+    width: 319px;
+    height: 350px;
+}
+
+.estrelas {
+    margin-bottom: 15px;
+}
+
+.estrelas input[type=radio] {
+    display: none;
+}
+
+.estrelas label i.fa {
+    font-size: 2em
+}
+
+.estrelas label i.fa:before {
+    content: '\f005';
+    color: #FC0;
+}
+
+.estrelas input[type=radio]:checked~label i.fa:before {
+    color: #CCC;
+}
+
+.titulo1 {
+    padding-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.proximo {
+    color: black;
+}
+
+
+/*MAIN2*/
+
+
+/* MAIN 3 */
+
+p {
+    text-indent: 0;
+}
+
+.entrevistas {
+    font-size: 22px;
+    font-style: unset;
+    text-indent: 0;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.diretor {
+    font-size: 16px;
+    text-indent: 0;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.titulo2 {
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+#categoriasmain2 {
+    padding-top: 30px;
+}
+
+.titulo3 {
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.titulo4 {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.card {
+    margin-top: 10px;
+    text-align: center;
+    width: 20rem;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.cards {
+    padding-top: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_text {
+    font-size: medium;
+}
+
+.cards-deck {
+    justify-content: left;
+    font-family: monospace;
+}
+
+#botao {
+    margin-top: 15px;
+}
+
+.videofinais {
+    justify-content: center;
+}
+
+.titulo5 {
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+
+/*MAIN 4*/
+
+.titulo5 {
+    font-weight: bold;
+}
+
+.titulo6 {
+    font-weight: bold;
+}
+
+.titulo7 {
+    font-weight: bold;
+}
+
+.titulo8 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.partefinal {
+    display: inline;
+}
+
+.imagensfinais {
+    width: 380px;
+    margin: 10px;
+    border: 4px solid grey;
+    border-image: round;
+}
+
+.titulontfinal {
+    color: black;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.paragrafontfinal {
+    color: black;
+    font-size: 15px;
+}
+
+#insta {
+    margin-right: 20px;
+}
+
+#twitter {
+    margin-right: 20px;
+}
+
+
+/*FOOTER*/
+
+.logo2 {
+    width: 60px;
+    align-items: flex-end;
+}
+
+
+/*VIDEOS*/
+
+.videomain1 {
+    border: 4px solid gray;
+    border-image: round;
+}
+
+.videomain3 {
+    border: 4px solid black;
+    border-image: round;
+}
+
+@media (max-width: 3480px) {
+    .videomain1 {
+        width: 100%;
+        align-items: center;
+    }
+}
+
+@media (max-width: 750px) {
+    .videomain1 {
+        width: 100%;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+}
+
+@media (max-width: 1490px) {
+    .videomain1 {
+        width: 100%;
+        align-items: center;
+    }
+}
+
+@media (max-width: 620px) {
+    .videomain1 {
+        width: 100%;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+}
+
+@media (max-width: 750px) {
+    .videomain3 {
+        width: 100%;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+}
+
+@media (max-width: 1430px) {
+    .videomain3 {
+        width: 100%;
+        align-items: center;
+    }
+}
+
+@media (max-width: 620px) {
+    .videomain3 {
+        width: 100%;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .imagensfinais {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .videofinais {
+        align-items: center;
+    }
+}
