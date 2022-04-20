@@ -1,0 +1,15 @@
+C:\Users\athos\Documents\GitHub\FACULDADE---PRONTOS\Roteiro 5\Roteiro 5 - 9\bin\Debug\net6.0\Roteiro 5 - 9.exe
+C:\Users\athos\Documents\GitHub\FACULDADE---PRONTOS\Roteiro 5\Roteiro 5 - 9\bin\Debug\net6.0\Roteiro 5 - 9.deps.json
+C:\Users\athos\Documents\GitHub\FACULDADE---PRONTOS\Roteiro 5\Roteiro 5 - 9\bin\Debug\net6.0\Roteiro 5 - 9.runtimeconfig.json
+C:\Users\athos\Documents\GitHub\FACULDADE---PRONTOS\Roteiro 5\Roteiro 5 - 9\bin\Debug\net6.0\Roteiro 5 - 9.dll
+C:\Users\athos\Documents\GitHub\FACULDADE---PRONTOS\Roteiro 5\Roteiro 5 - 9\bin\Debug\net6.0\Roteiro 5 - 9.pdb
+C:\Users\athos\Documents\GitHub\FACULDADE---PRONTOS\Roteiro 5\Roteiro 5 - 9\obj\Debug\net6.0\Roteiro 5 - 9.csproj.AssemblyReference.cache
+C:\Users\athos\Documents\GitHub\FACULDADE---PRONTOS\Roteiro 5\Roteiro 5 - 9\obj\Debug\net6.0\Roteiro 5 - 9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\athos\Documents\GitHub\FACULDADE---PRONTOS\Roteiro 5\Roteiro 5 - 9\obj\Debug\net6.0\Roteiro 5 - 9.AssemblyInfoInputs.cache
+C:\Users\athos\Documents\GitHub\FACULDADE---PRONTOS\Roteiro 5\Roteiro 5 - 9\obj\Debug\net6.0\Roteiro 5 - 9.AssemblyInfo.cs
+C:\Users\athos\Documents\GitHub\FACULDADE---PRONTOS\Roteiro 5\Roteiro 5 - 9\obj\Debug\net6.0\Roteiro 5 - 9.csproj.CoreCompileInputs.cache
+C:\Users\athos\Documents\GitHub\FACULDADE---PRONTOS\Roteiro 5\Roteiro 5 - 9\obj\Debug\net6.0\Roteiro 5 - 9.dll
+C:\Users\athos\Documents\GitHub\FACULDADE---PRONTOS\Roteiro 5\Roteiro 5 - 9\obj\Debug\net6.0\refint\Roteiro 5 - 9.dll
+C:\Users\athos\Documents\GitHub\FACULDADE---PRONTOS\Roteiro 5\Roteiro 5 - 9\obj\Debug\net6.0\Roteiro 5 - 9.pdb
+C:\Users\athos\Documents\GitHub\FACULDADE---PRONTOS\Roteiro 5\Roteiro 5 - 9\obj\Debug\net6.0\Roteiro 5 - 9.genruntimeconfig.cache
+C:\Users\athos\Documents\GitHub\FACULDADE---PRONTOS\Roteiro 5\Roteiro 5 - 9\obj\Debug\net6.0\ref\Roteiro 5 - 9.dll
