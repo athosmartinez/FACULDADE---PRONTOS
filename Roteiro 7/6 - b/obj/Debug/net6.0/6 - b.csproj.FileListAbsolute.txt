@@ -1,0 +1,15 @@
+C:\Users\athos\Documents\VSCODE\Roteiro 7\6 - b\bin\Debug\net6.0\6 - b.exe
+C:\Users\athos\Documents\VSCODE\Roteiro 7\6 - b\bin\Debug\net6.0\6 - b.deps.json
+C:\Users\athos\Documents\VSCODE\Roteiro 7\6 - b\bin\Debug\net6.0\6 - b.runtimeconfig.json
+C:\Users\athos\Documents\VSCODE\Roteiro 7\6 - b\bin\Debug\net6.0\6 - b.dll
+C:\Users\athos\Documents\VSCODE\Roteiro 7\6 - b\bin\Debug\net6.0\6 - b.pdb
+C:\Users\athos\Documents\VSCODE\Roteiro 7\6 - b\obj\Debug\net6.0\6 - b.csproj.AssemblyReference.cache
+C:\Users\athos\Documents\VSCODE\Roteiro 7\6 - b\obj\Debug\net6.0\6 - b.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\athos\Documents\VSCODE\Roteiro 7\6 - b\obj\Debug\net6.0\6 - b.AssemblyInfoInputs.cache
+C:\Users\athos\Documents\VSCODE\Roteiro 7\6 - b\obj\Debug\net6.0\6 - b.AssemblyInfo.cs
+C:\Users\athos\Documents\VSCODE\Roteiro 7\6 - b\obj\Debug\net6.0\6 - b.csproj.CoreCompileInputs.cache
+C:\Users\athos\Documents\VSCODE\Roteiro 7\6 - b\obj\Debug\net6.0\6 - b.dll
+C:\Users\athos\Documents\VSCODE\Roteiro 7\6 - b\obj\Debug\net6.0\refint\6 - b.dll
+C:\Users\athos\Documents\VSCODE\Roteiro 7\6 - b\obj\Debug\net6.0\6 - b.pdb
+C:\Users\athos\Documents\VSCODE\Roteiro 7\6 - b\obj\Debug\net6.0\6 - b.genruntimeconfig.cache
+C:\Users\athos\Documents\VSCODE\Roteiro 7\6 - b\obj\Debug\net6.0\ref\6 - b.dll
