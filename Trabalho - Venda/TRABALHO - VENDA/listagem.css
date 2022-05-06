@@ -1,0 +1,28 @@
+#tabela {
+    margin-left: 25%;
+    margin-top: 0%;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 7px;
+    border: none;
+    background: #1875FF;
+    color: white;
+    font-family: inherit;
+    text-align: center;
+    font-size: 13px;
+    box-shadow: 0px 14px 56px -11px #1875FF;
+    width: 10em;
+    padding: 0.5em;
+    transition: all 0.4s;
+    cursor: pointer;
+    margin-left: 400px;
+}
+
+.input-group {
+    margin-left: 61.7%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 300px;
+}
