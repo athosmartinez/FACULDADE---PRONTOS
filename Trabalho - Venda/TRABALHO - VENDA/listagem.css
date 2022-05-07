@@ -21,8 +21,12 @@
 }
 
 .input-group {
-    margin-left: 61.7%;
+    margin-left: 41%;
     margin-bottom: 30px;
     margin-top: 30px;
-    width: 300px;
+    width: 500px;
+}
+
+#novo {
+    margin-left: 10px;
 }
