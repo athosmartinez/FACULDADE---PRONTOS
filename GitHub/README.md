@@ -1,2 +1,0 @@
-# FACULDADE---PRONTOS
-Projetos faculdade
