@@ -69,3 +69,20 @@ console.log(executa(sum, 12, 3));
 console.log(executa(sub, 12, 3));
 console.log(executa(mul, 12, 3));
 console.log(executa(div, 12, 3));
+
+let fat = function fatorial(n) {
+    if (n <= 1) return 1;
+    return n * fatorial(n - 1);
+};
+
+console.log(fat(5));
+console.log(fat(3));
+
+let adicão1 = function(a, b) {
+    return a + b;
+};
+// Arrow function
+let adicão2 = (a, b) => a + b;
+
+console.log(adicão1(3, 4));
+console.log(adicão2(3, 4));
