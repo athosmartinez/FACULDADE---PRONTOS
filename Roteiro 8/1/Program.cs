@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MyApp // Note: actual namespace depends on the project name.
+namespace ex1 // Note: actual namespace depends on the project name.
 {
     //Faça um programa que contenha uma função que receba dois números inteiros como parâmetro de entrada e leia um valor do teclado que esteja entre os dois parâmetros passados. A função deve retornar o número correto para o programa principal e este deve imprimir o valor lido.//
     internal class Program

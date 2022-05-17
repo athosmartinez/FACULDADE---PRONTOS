@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\athos\\Documents\\VSCODE\\Roteiro 8\\5\\5.csproj",
+      "projectUniqueName": "C:\\Users\\athos\\Documents\\GitHub\\Faculdade---Aulas\\Roteiro 8\\5\\5.csproj",
       "projectName": "5",
-      "projectPath": "C:\\Users\\athos\\Documents\\VSCODE\\Roteiro 8\\5\\5.csproj",
+      "projectPath": "C:\\Users\\athos\\Documents\\GitHub\\Faculdade---Aulas\\Roteiro 8\\5\\5.csproj",
       "packagesPath": "C:\\Users\\athos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\athos\\Documents\\VSCODE\\Roteiro 8\\5\\obj\\",
+      "outputPath": "C:\\Users\\athos\\Documents\\GitHub\\Faculdade---Aulas\\Roteiro 8\\5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\athos\\AppData\\Roaming\\NuGet\\NuGet.Config"
