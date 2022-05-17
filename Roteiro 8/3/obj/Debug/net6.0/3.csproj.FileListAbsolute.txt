@@ -1,0 +1,5 @@
+C:\Users\athos\Documents\VSCODE\Roteiro 8\3\obj\Debug\net6.0\3.csproj.AssemblyReference.cache
+C:\Users\athos\Documents\VSCODE\Roteiro 8\3\obj\Debug\net6.0\3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\athos\Documents\VSCODE\Roteiro 8\3\obj\Debug\net6.0\3.AssemblyInfoInputs.cache
+C:\Users\athos\Documents\VSCODE\Roteiro 8\3\obj\Debug\net6.0\3.AssemblyInfo.cs
+C:\Users\athos\Documents\VSCODE\Roteiro 8\3\obj\Debug\net6.0\3.csproj.CoreCompileInputs.cache
