@@ -10,44 +10,35 @@ namespace ex2
             //e caso este número seja primo retorne 1, caso contrário retorne 0.
             //Número primo é aquele que só é divisível por 1 e por ele mesmo.
 
-            int n = 0, cont = 0, numero;
-
-            Console.WriteLine("Digite um número: ");
-            n = int.Parse(Console.ReadLine());
-
-            while (n < 0)
-            {
-                Console.WriteLine("Digite um número: ");
-                n = int.Parse(Console.ReadLine());
-            }
-
-            numero = nPrimo(n);
-
-            if (numero == 1)
-            {
+            Console.WriteLine("Insira um número");
+            int a = int.Parse(Console.ReadLine());
+            if (Primo(a) == 1)
                 Console.WriteLine("É primo");
-            }
-            else if (numero == 0)
-            {
+            else
                 Console.WriteLine("Não é primo");
-            }
 
 
         }
 
 
-        public static int nPrimo(int numeroprimo)
+        public static int Primo(int n)
         {
-            for (int i = 2; i < numeroprimo; i++)
+            int count = 0;
+            for (int i = n; i >= 2; i--)
             {
-                if (numeroprimo % 1 == 0)
-                {
-                    return 0;
-                }
+                if (n % i == 0)
+                    count++;
             }
-            return 1;
+
+            if (count == 1)
+                return 1;
+            else
+                return 0;
         }
+
     }
 }
 
 
+
+        
