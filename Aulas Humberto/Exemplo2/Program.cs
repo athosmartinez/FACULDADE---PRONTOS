@@ -6,13 +6,13 @@ namespace MyApp // Note: actual namespace depends on the project name.
     {
         const int lista1 = 20;
         const int lista2 = 20;
-        void Main(string[] args)
+        static void Main(string[] args)
         {
             int[] listaa = new int[lista1];
             int[] listab = new int[lista2];
             numeros(listaa);
         }
-        void numeros(int[] listaa)
+        static void numeros(int[] listaa)
         {
             for (int i = 0; i <= listaa.Length; i++)
             {
@@ -20,7 +20,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
                 listaa[i] = int.Parse(Console.ReadLine());
 
             }
-            
+
         }
 
     }
