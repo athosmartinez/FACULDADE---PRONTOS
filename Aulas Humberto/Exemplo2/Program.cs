@@ -10,6 +10,18 @@ namespace MyApp // Note: actual namespace depends on the project name.
         {
             int[] listaa = new int[lista1];
             int[] listab = new int[lista2];
+            numeros(listaa);
         }
+        void numeros(int[] listaa)
+        {
+            for (int i = 0; i <= listaa.Length; i++)
+            {
+                Console.WriteLine("Digite os numeros da primeira lista:");
+                listaa[i] = int.Parse(Console.ReadLine());
+
+            }
+            
+        }
+
     }
 }
