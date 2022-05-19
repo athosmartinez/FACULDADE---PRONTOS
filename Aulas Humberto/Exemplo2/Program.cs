@@ -8,18 +8,18 @@ namespace MyApp // Note: actual namespace depends on the project name.
         const int lista2 = 20;
         static void Main(string[] args)
         {
-            int[] listaa = new int[lista1];
-            int[] listab = new int[lista2];
-            numeros(listaa);
-        }
-        static void numeros(int[] listaa)
-        {
-            for (int i = 0; i <= listaa.Length; i++)
-            {
-                Console.WriteLine("Digite os numeros da primeira lista:");
-                listaa[i] = int.Parse(Console.ReadLine());
+            int i, []A = new int[20], [] B = new int[20];
 
+            LeVetor[A];
+            LeVetor[B];
+            Console.WriteLine("Soma dos conjuntos digitados: \n");
+            for (i = 0; i < 20; i++)
+            {
+                Console.WriteLine("{0} = {1},", i + 1, A[i] + B[i]);
             }
+        }
+        static void numeros(int[] lista)
+        {
 
         }
 
