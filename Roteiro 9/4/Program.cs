@@ -39,11 +39,6 @@ namespace ex4
             Console.WriteLine("O número de letras P é: " + letrap);
             Console.WriteLine("O número de espaços é: " + espacos);
             Console.WriteLine("O carácter digitado aparece pela primeira vez em: " + letrax);
-
         }
-
-
-
-
     }
 }
