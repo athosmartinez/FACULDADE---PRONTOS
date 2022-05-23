@@ -37,7 +37,7 @@ namespace ex1
         {
             for (int i = 0; i < vetor.Length; i++)
             {
-                Console.Write("Entre com a nota do aluno [{0}]", i + 1);
+                Console.Write("Entre com a nota do aluno [{0}]: ", i + 1);
                 vetor[i] = float.Parse(Console.ReadLine());
             }
         }
