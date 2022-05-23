@@ -5,14 +5,17 @@
     <title>Olá Mundo</title>
     <meta charset="utf-8" />
     <script>
-        function ola() {
-            alert("Olá mundo!");
+        function ola2() {
+            let confirma = confirm('Confirma?')
+            if (confirma)
+                alert('Operação confirmada');
+            else alert('Operação cancelada');
         }
     </script>
 </head>
 
-<body onload="ola()">
-    <p>Olá mundo em JavaScript</p>
+<body onload="ola2()">
+    <p>Olá mundo em JavaScript!</p>
 </body>
 
 </html>
