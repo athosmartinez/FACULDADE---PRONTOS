@@ -1,7 +1,13 @@
 ﻿using System;
 
-namespace ex1 // Note: actual namespace depends on the project name.
+namespace ex1
 {
+
+//Declare na função main() dois vetores de inteiros A e B. Usando a função acima, ler dois conjuntos de 10 números, colocando cada conj em um vetor. Depois prencha um terceiro vetor C[] sendo que cada posição de C[] deverá correponder ao menor valor correspondente às respectivas posições nos vetores A[] e B[]. Finalmente imprima o resultado de C[].
+//Exemplo:
+//Informe primeiro conjunto: 5 10 15 20 25 30 35 40 45 50
+//Informe segundo conjunto: 1 2 3 4 5 6 7 8 9 10
+//Resultado: 6 12 18 24 30 36 42 48 54 60
     internal class Program
     {
         static void Main(string[] args)
