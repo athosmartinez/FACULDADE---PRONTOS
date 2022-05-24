@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Index2
+
+    </title>
+    <meta charset="utf-8" />
+    <script>
+        let li = document.querySelector('#li');
+        window.onload = () => {
+            let intro = document.getElementById('introdução');
+            intro.innerHTML
+            intro.style.textAlign = 'center';
+            intro.style.fontWeight = 'bold';
+            intro.style.border = 'thin solid black';
+            intro.style.padding = '10px 5px';
+            intro.style.backgroundColor = '#DDF';
+            let li = document.getElementsByTagName('li');
+            for (let i = 0; i < li.length; i++)
+                li[i].style.color = 'red';
+
+            bt.onclick = () => {
+                document.getElementById('lista');
+                lista.innerHTML += '<li>Item</li>'
+            };
+            bt2.onclick = () => {
+                document.getElementById('lista');
+                lista.innerHTML -= '<li>Item</li>'
+            };
+        };
+
+        var nome = 'Marcos';
+    </script>
+    <style>
+        button {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="introdução">
+        bem vindos!
+    </p>
+    <ul id="lista">
+        <li id="l1">
+            1 Item
+        </li>
+        <li id="l2">
+            2 Item
+        </li>
+        <li id="l3">
+            3 Item
+        </li>
+        <li id="l4">
+            4 Item
+        </li>
+    </ul>
+
+    <ul>
+        <li id="de fora">5 item</li>
+    </ul>
+    <button id="bt">
+        +
+    </button>
+    <button id="bt2">
+        -
+            </button>
+</body>
+
+</html>

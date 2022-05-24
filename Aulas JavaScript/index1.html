@@ -2,20 +2,33 @@
 <html lang="pt-br">
 
 <head>
-    <title>Olá Mundo</title>
+    <title>Index1</title>
     <meta charset="utf-8" />
     <script>
+        window.onload = () => {
+            bt.onclick = () => alert('Olá mundo');
+        }
+
         function ola2() {
             let confirma = confirm('Confirma?')
             if (confirma)
                 alert('Operação confirmada');
             else alert('Operação cancelada');
-        }
+        };
+
+
+        var nome = 'Marcos';
     </script>
+    <style>
+        button {
+            background-color: #ddd;
+        }
+    </style>
 </head>
 
 <body onload="ola2()">
     <p>Olá mundo em JavaScript!</p>
+    <p><button id="bt">Olá</button></p>
 </body>
 
 </html>
