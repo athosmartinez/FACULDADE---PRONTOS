@@ -7,7 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index3</title>
     <script>
-        window.onload = () => {};
+        window.onload = () => {
+            Nome.onchange = () =>
+                console.log('change', Nome.value);
+            Nome.oninput = () =>
+                console.log('input', Nome.value.length);
+
+            Senha.onchange = () => {
+                console.log(Senha.value);
+                Senha.oninput = () =>
+                    console.log('input', Senha.value);
+                Senha.oninput = () =>
+                    console.log('input', Senha.value.length);
+            }
+        };
     </script>
 </head>
 
@@ -20,8 +33,9 @@
         <p>
             <label for="Senha">Senha: </label>
             <input type="password" id="Senha" name="Senha">
-            <button type="submit">PRONTO!</button>
+
         </p>
+        <button type="submit">PRONTO!</button>
     </form>
 </body>
 

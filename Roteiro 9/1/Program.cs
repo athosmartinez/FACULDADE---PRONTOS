@@ -30,7 +30,7 @@ namespace ex1
                 {
                     listac[i] = listab[i];
                 }
-                Console.WriteLine(listac[i]);
+                Console.WriteLine("Comparando as duas listas as menores foram: " +listac[i]);
             }
         }
         static void LeVetor(float[] vetor)
