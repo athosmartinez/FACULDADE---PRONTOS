@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index4</title>
+    <script>
+        window.onload = () => {
+            Nome.onchange = () =>
+                console.log('change', Nome.value);
+            Nome.oninput = () =>
+                console.log('input', Nome.value.length);
+
+            Senha.onchange = () => {
+                console.log(Senha.value);
+                Senha.oninput = () =>
+                    console.log('input', Senha.value);
+                Senha.oninput = () =>
+                    console.log('input', Senha.value.length);
+            }
+        };
+    </script>
+</head>
+
+<body>
+    <form action="login.php" method="post">
+        <p>
+            <label for="Nome">Nome: </label>
+            <input type="text" id="Nome" name="Nome" autocomplete="off">
+        </p>
+        <p>
+            <label for="Senha">Senha: </label>
+            <input type="password" id="Senha" name="Senha">
+
+        </p>
+        <button type="submit">PRONTO!</button>
+        <p>
+            <select name="salada" id="nsalda"></select>
+            <option>
+                Verde
+            </option>
+            <option>
+                Rosa
+            </option>
+            <option>
+                Cinza
+            </option>
+            <option>
+                Vermelha
+            </option>
+            <option>
+                Azul
+            </option>
+        </p>
+    </form>
+</body>
+
+</html>
