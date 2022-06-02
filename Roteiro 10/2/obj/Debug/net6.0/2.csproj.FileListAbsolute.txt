@@ -1,0 +1,15 @@
+C:\Users\athos\Documents\GitHub\Faculdade---Aulas\Roteiro 10\2\bin\Debug\net6.0\2.exe
+C:\Users\athos\Documents\GitHub\Faculdade---Aulas\Roteiro 10\2\bin\Debug\net6.0\2.deps.json
+C:\Users\athos\Documents\GitHub\Faculdade---Aulas\Roteiro 10\2\bin\Debug\net6.0\2.runtimeconfig.json
+C:\Users\athos\Documents\GitHub\Faculdade---Aulas\Roteiro 10\2\bin\Debug\net6.0\2.dll
+C:\Users\athos\Documents\GitHub\Faculdade---Aulas\Roteiro 10\2\bin\Debug\net6.0\2.pdb
+C:\Users\athos\Documents\GitHub\Faculdade---Aulas\Roteiro 10\2\obj\Debug\net6.0\2.csproj.AssemblyReference.cache
+C:\Users\athos\Documents\GitHub\Faculdade---Aulas\Roteiro 10\2\obj\Debug\net6.0\2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\athos\Documents\GitHub\Faculdade---Aulas\Roteiro 10\2\obj\Debug\net6.0\2.AssemblyInfoInputs.cache
+C:\Users\athos\Documents\GitHub\Faculdade---Aulas\Roteiro 10\2\obj\Debug\net6.0\2.AssemblyInfo.cs
+C:\Users\athos\Documents\GitHub\Faculdade---Aulas\Roteiro 10\2\obj\Debug\net6.0\2.csproj.CoreCompileInputs.cache
+C:\Users\athos\Documents\GitHub\Faculdade---Aulas\Roteiro 10\2\obj\Debug\net6.0\2.dll
+C:\Users\athos\Documents\GitHub\Faculdade---Aulas\Roteiro 10\2\obj\Debug\net6.0\refint\2.dll
+C:\Users\athos\Documents\GitHub\Faculdade---Aulas\Roteiro 10\2\obj\Debug\net6.0\2.pdb
+C:\Users\athos\Documents\GitHub\Faculdade---Aulas\Roteiro 10\2\obj\Debug\net6.0\2.genruntimeconfig.cache
+C:\Users\athos\Documents\GitHub\Faculdade---Aulas\Roteiro 10\2\obj\Debug\net6.0\ref\2.dll
