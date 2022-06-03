@@ -12,13 +12,17 @@ namespace Ex3 // Note: actual namespace depends on the project name.
             LeMatriz(MatrizB);
             int[,] MatrizC = new int[4, 4];
             SomaMatriz(MatrizA, MatrizB, MatrizC);
+            Console.WriteLine("A soma de C é:");
             for (int i = 0; i < 4; i++)
             {
                 for (int j = 0; j < 4; j++)
                 {
-                    Console.WriteLine("A soma resulta em C:" + MatrizC[i, j]);
+                    Console.Write(MatrizC[i, j] + "\t");
+
                 }
+                Console.WriteLine();
             }
+
         }
         static void LeMatriz(int[,] Matriz)
         {

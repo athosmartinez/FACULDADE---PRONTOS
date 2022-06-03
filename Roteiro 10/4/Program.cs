@@ -13,8 +13,8 @@ namespace Ex4 // Note: actual namespace depends on the project name.
             LeMatriz(MatrizB);
             SomaeMediaDentroMatriz(MatrizA, ref somaAeMedia);
             SomaeMediaDentroMatriz(MatrizB, ref somaBeMedia);
-            Console.WriteLine("As médias das PRIMEIRA matriz é: " + somaAeMedia/16);
-            Console.WriteLine("As médias das SEGUNDA matriz é: " + somaBeMedia/16);
+            Console.WriteLine("As média da PRIMEIRA matriz é: " + somaAeMedia/16);
+            Console.WriteLine("As média da SEGUNDA matriz é: " + somaBeMedia/16);
         }
         static void LeMatriz(int[,] Matriz)
         {

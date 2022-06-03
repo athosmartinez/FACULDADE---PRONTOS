@@ -10,30 +10,25 @@ namespace Ex2 // Note: actual namespace depends on the project name.
             int[,] MatrizB = new int[4, 4];
             LeMatriz(MatrizA);
             LeMatriz(MatrizB);
-            int[,] MatrizC = new int[4, 4];
+            int maior = 0;
 
             for (int i = 0; i < 4; i++)
             {
                 for (int j = 0; j < 4; j++)
                 {
-                    if (MatrizA[i, j] > MatrizB[i, j])
+                    if (MatrizA[i, j] > maior)
                     {
-                        MatrizC[i, j] = MatrizA[i, j];
+                       maior = MatrizA[i, j];
                     }
-                    else if (MatrizA[i, j] < MatrizB[i, j])
+                    else if (MatrizB[i, j] > maior)
                     {
-                        MatrizC[i, j] = MatrizB[i, j];
+                        maior = MatrizB[i, j];
                     }
                 }
 
             }
-            for (int i = 0; i < 4; i++)
-            {
-                for (int j = 0; j < 4; j++)
-                {
-                    Console.WriteLine("Os maiores valores são:" + MatrizC[i, j]);
-                }
-            }
+            Console.WriteLine("Os o maior elemento é: " + maior);
+          
         }
         static void LeMatriz(int[,] Matriz)
         {
