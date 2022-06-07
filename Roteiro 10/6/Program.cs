@@ -18,7 +18,6 @@ namespace MyApp // Note: actual namespace depends on the project name.
                     Console.WriteLine("A matriz fica:", TransportDMatrizC[j, i]);
                 }
             }
-
         }
         static void LeMatriz(int[,] Matriz)
         {
