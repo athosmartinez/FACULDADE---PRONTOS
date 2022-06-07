@@ -1,14 +1,14 @@
 const API_KEY = '1562820b9cfb4eb1a8cee664b129c26a';
 
-function exibeNoticias () {
+function exibeNoticias() {
     let divTela = document.getElementById('tela');
     let texto = '';
 
     // Montar texto HTML das noticias
-    let dados = JSON.parse (this.responseText);
-    for (i=0; i< dados.articles.length; i++) {
+    let dados = JSON.parse(this.responseText);
+    for (i = 0; i < dados.articles.length; i++) {
         let noticia = dados.articles[i];
-        let data = new Date (noticia.publishedAt);
+        let data = new Date(noticia.publishedAt);
 
         texto = texto + `
             <div class="box-noticia">
@@ -28,13 +28,13 @@ function exibeNoticias () {
     divTela.innerHTML = texto;
 }
 
-function executaPesquisa () {
+function executaPesquisa() {
     let query = document.getElementById('txtPesquisa').value;
 
-    let xhr = new XMLHttpRequest ();
+    let xhr = new XMLHttpRequest();
     xhr.onload = exibeNoticias;
-    xhr.open ('GET', `https://newsapi.org/v2/everything?q=${query}&apiKey=${API_KEY}`);
-    xhr.send ();
+    xhr.open('GET', `https://newsapi.org/v2/everything?q=${query}&apiKey=${API_KEY}`);
+    xhr.send();
 }
 
-document.getElementById ('btnPesquisa').addEventListener ('click', executaPesquisa);
+addEventListener('click', executaPesquisa);
