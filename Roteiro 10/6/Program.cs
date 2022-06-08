@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MyApp // Note: actual namespace depends on the project name.
+namespace Ex6 // Note: actual namespace depends on the project name.
 {
     internal class Program
     {
@@ -10,14 +10,8 @@ namespace MyApp // Note: actual namespace depends on the project name.
             int[,] MatrizD = new int[4, 4];
             int[,] TransportDMatrizC = new int[4, 4];
             LeMatriz(MatrizD);
-            Tranporte(ref MatrizD, ref TransportDMatrizC);
-            for (int i = 0; i < 4; i++)
-            {
-                for (int j = 0; j < 4; j++)
-                {
-                    Console.WriteLine("A matriz fica:", TransportDMatrizC[j, i]);
-                }
-            }
+            ImprimeMatriz(MatrizD);
+            Tranporte(MatrizD, TransportDMatrizC);
         }
         static void LeMatriz(int[,] Matriz)
         {
@@ -30,20 +24,37 @@ namespace MyApp // Note: actual namespace depends on the project name.
                 }
             }
         }
-        static void Tranporte(ref int[,] D, ref int[,] C)
+        static void ImprimeMatriz(int[,] Imprimir)
         {
-            for (int i = 0; i < 4; i++)
-                for (int j = 0; j < 4; j++)
-                    C[i, j] = D[j, i];
-                    
+            Console.WriteLine("OLHA A MATRIZ AÍ OH:");
             for (int i = 0; i < 4; i++)
             {
                 for (int j = 0; j < 4; j++)
                 {
-                    Console.WriteLine("A matriz fica:", C[i, j]);
+                    Console.Write(Imprimir[i, j] + " \t ");
                 }
+                Console.WriteLine();
             }
         }
+        static void Tranporte(int[,] D, int[,] C)
+        {
+            for (int i = 0; i < 4; i++)
+                for (int j = 0; j < 4; j++)
+                    C[i, j] = D[j, i];
+            ImprimeMatrizTransportada(C);
+        }
 
+        static void ImprimeMatrizTransportada(int[,] Imprimir)
+        {
+            Console.WriteLine("OLHA A MATRIZ TRANSPORTADA AÍ OH:");
+            for (int i = 0; i < 4; i++)
+            {
+                for (int j = 0; j < 4; j++)
+                {
+                    Console.Write(Imprimir[i, j] + " \t ");
+                }
+                Console.WriteLine();
+            }
+        }
     }
 }
