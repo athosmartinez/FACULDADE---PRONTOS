@@ -1,0 +1,15 @@
+C:\Users\athos\OneDrive\Documents\Faculdade---Laboratorio\Arquivos\bin\Debug\net6.0\Arquivos.exe
+C:\Users\athos\OneDrive\Documents\Faculdade---Laboratorio\Arquivos\bin\Debug\net6.0\Arquivos.deps.json
+C:\Users\athos\OneDrive\Documents\Faculdade---Laboratorio\Arquivos\bin\Debug\net6.0\Arquivos.runtimeconfig.json
+C:\Users\athos\OneDrive\Documents\Faculdade---Laboratorio\Arquivos\bin\Debug\net6.0\Arquivos.dll
+C:\Users\athos\OneDrive\Documents\Faculdade---Laboratorio\Arquivos\bin\Debug\net6.0\Arquivos.pdb
+C:\Users\athos\OneDrive\Documents\Faculdade---Laboratorio\Arquivos\obj\Debug\net6.0\Arquivos.csproj.AssemblyReference.cache
+C:\Users\athos\OneDrive\Documents\Faculdade---Laboratorio\Arquivos\obj\Debug\net6.0\Arquivos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\athos\OneDrive\Documents\Faculdade---Laboratorio\Arquivos\obj\Debug\net6.0\Arquivos.AssemblyInfoInputs.cache
+C:\Users\athos\OneDrive\Documents\Faculdade---Laboratorio\Arquivos\obj\Debug\net6.0\Arquivos.AssemblyInfo.cs
+C:\Users\athos\OneDrive\Documents\Faculdade---Laboratorio\Arquivos\obj\Debug\net6.0\Arquivos.csproj.CoreCompileInputs.cache
+C:\Users\athos\OneDrive\Documents\Faculdade---Laboratorio\Arquivos\obj\Debug\net6.0\Arquivos.dll
+C:\Users\athos\OneDrive\Documents\Faculdade---Laboratorio\Arquivos\obj\Debug\net6.0\refint\Arquivos.dll
+C:\Users\athos\OneDrive\Documents\Faculdade---Laboratorio\Arquivos\obj\Debug\net6.0\Arquivos.pdb
+C:\Users\athos\OneDrive\Documents\Faculdade---Laboratorio\Arquivos\obj\Debug\net6.0\Arquivos.genruntimeconfig.cache
+C:\Users\athos\OneDrive\Documents\Faculdade---Laboratorio\Arquivos\obj\Debug\net6.0\ref\Arquivos.dll
