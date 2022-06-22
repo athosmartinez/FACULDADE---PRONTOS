@@ -24,7 +24,7 @@ namespace Ex1 // Note: actual namespace depends on the project name.
         }
         static void ImprimeMatriz(int[,] Imprimir)
         {
-            Console.WriteLine("OLHA A MATRIZ AÍ OH:");
+            Console.WriteLine("A matriz fica assim:");
             for (int i = 0; i < 4; i++)
             {
                 for (int j = 0; j < 4; j++)
