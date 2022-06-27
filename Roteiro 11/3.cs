@@ -1,15 +1,14 @@
 using System;
 using System.IO;
 using System.Globalization;
+
 namespace Roteiro11
 {
-
     class Atividade3
     {
-
-         void Ati3()
+        static void Main(string[] args)
         {
- StreamReader file;
+            StreamReader file;
             file = new StreamReader("Poema.txt");
             String line = "";
             int countLine = 0;

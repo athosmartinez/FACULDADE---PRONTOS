@@ -6,7 +6,7 @@ namespace Roteiro11
 
     class Atividade6
     {
-        void Ati6()
+       static void Main(string[] args)
         {
             StreamReader file;
             file = new StreamReader("mat.txt");

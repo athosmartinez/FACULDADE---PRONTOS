@@ -1,15 +1,13 @@
 using System;
 using System.IO;
 using System.Globalization;
+
 namespace Roteiro11
 {
-
     class Atividade4
     {
-
-        void Ati4()
+        static void Main(string[] args)
         {
-
             StreamWriter file;
             file = new StreamWriter("mat.txt");
             int[,] matriz = new int[3, 3];
@@ -19,11 +17,9 @@ namespace Roteiro11
                 for (int j = 0; j < matriz.GetLength(1); j++)
                 {
                     file.WriteLine(matriz[i, j] + " ");
-
                 }
             }
             file.Close();
-
 
             void leMatriz(int[,] M)
             {
@@ -39,4 +35,3 @@ namespace Roteiro11
         }
     }
 }
-
