@@ -1,0 +1,15 @@
+C:\Users\athos\OneDrive\Documents\Faculdade---Laboratorio\Roteiro 11 - Certo\bin\Debug\net6.0\Roteiro 11 - Certo.exe
+C:\Users\athos\OneDrive\Documents\Faculdade---Laboratorio\Roteiro 11 - Certo\bin\Debug\net6.0\Roteiro 11 - Certo.deps.json
+C:\Users\athos\OneDrive\Documents\Faculdade---Laboratorio\Roteiro 11 - Certo\bin\Debug\net6.0\Roteiro 11 - Certo.runtimeconfig.json
+C:\Users\athos\OneDrive\Documents\Faculdade---Laboratorio\Roteiro 11 - Certo\bin\Debug\net6.0\Roteiro 11 - Certo.dll
+C:\Users\athos\OneDrive\Documents\Faculdade---Laboratorio\Roteiro 11 - Certo\bin\Debug\net6.0\Roteiro 11 - Certo.pdb
+C:\Users\athos\OneDrive\Documents\Faculdade---Laboratorio\Roteiro 11 - Certo\obj\Debug\net6.0\Roteiro 11 - Certo.csproj.AssemblyReference.cache
+C:\Users\athos\OneDrive\Documents\Faculdade---Laboratorio\Roteiro 11 - Certo\obj\Debug\net6.0\Roteiro 11 - Certo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\athos\OneDrive\Documents\Faculdade---Laboratorio\Roteiro 11 - Certo\obj\Debug\net6.0\Roteiro 11 - Certo.AssemblyInfoInputs.cache
+C:\Users\athos\OneDrive\Documents\Faculdade---Laboratorio\Roteiro 11 - Certo\obj\Debug\net6.0\Roteiro 11 - Certo.AssemblyInfo.cs
+C:\Users\athos\OneDrive\Documents\Faculdade---Laboratorio\Roteiro 11 - Certo\obj\Debug\net6.0\Roteiro 11 - Certo.csproj.CoreCompileInputs.cache
+C:\Users\athos\OneDrive\Documents\Faculdade---Laboratorio\Roteiro 11 - Certo\obj\Debug\net6.0\Roteiro 11 - Certo.dll
+C:\Users\athos\OneDrive\Documents\Faculdade---Laboratorio\Roteiro 11 - Certo\obj\Debug\net6.0\refint\Roteiro 11 - Certo.dll
+C:\Users\athos\OneDrive\Documents\Faculdade---Laboratorio\Roteiro 11 - Certo\obj\Debug\net6.0\Roteiro 11 - Certo.pdb
+C:\Users\athos\OneDrive\Documents\Faculdade---Laboratorio\Roteiro 11 - Certo\obj\Debug\net6.0\Roteiro 11 - Certo.genruntimeconfig.cache
+C:\Users\athos\OneDrive\Documents\Faculdade---Laboratorio\Roteiro 11 - Certo\obj\Debug\net6.0\ref\Roteiro 11 - Certo.dll

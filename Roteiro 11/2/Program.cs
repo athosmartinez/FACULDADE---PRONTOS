@@ -1,10 +1,8 @@
-using System;
-using System.IO;
-using System.Globalization;
+﻿using System;
 
-namespace Roteiro11
+namespace MyApp // Note: actual namespace depends on the project name.
 {
-    class Atividade2
+    internal class Program
     {
         static void Main(string[] args)
         {

@@ -1,14 +1,12 @@
-using System;
-using System.IO;
-using System.Globalization;
+﻿using System;
 
-namespace Roteiro11
+namespace MyApp // Note: actual namespace depends on the project name.
 {
-    class Atividade4
+    internal class Program
     {
         static void Main(string[] args)
         {
-            StreamWriter file;
+          StreamWriter file;
             file = new StreamWriter("mat.txt");
             int[,] matriz = new int[3, 3];
             leMatriz(matriz);
@@ -29,9 +27,6 @@ namespace Roteiro11
                     {
                         Console.WriteLine("Digite um número");
                         M[i, j] = int.Parse(Console.ReadLine());
-                    }
-                }
-            }
         }
     }
 }

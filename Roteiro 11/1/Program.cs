@@ -1,14 +1,12 @@
-using System;
-using System.IO;
-using System.Globalization;
+﻿using System;
 
-namespace Roteiro11
+namespace MyApp // Note: actual namespace depends on the project name.
 {
-    class Atividade1
+    internal class Program
     {
         static void Main(string[] args)
         {
-            StreamWriter file;
+                StreamWriter file;
             file = new StreamWriter("Poema.txt");
             Console.WriteLine("Digite um texto para o arquivo: ");
             String text = Console.ReadLine();

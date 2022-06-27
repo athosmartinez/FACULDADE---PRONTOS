@@ -1,14 +1,12 @@
-using System;
-using System.IO;
-using System.Globalization;
+﻿using System;
 
-namespace Roteiro11
+namespace MyApp // Note: actual namespace depends on the project name.
 {
-    class Atividade3
+    internal class Program
     {
         static void Main(string[] args)
         {
-            StreamReader file;
+                       StreamReader file;
             file = new StreamReader("Poema.txt");
             String line = "";
             int countLine = 0;

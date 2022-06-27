@@ -1,14 +1,12 @@
-using System;
-using System.IO;
-using System.Globalization;
-namespace Roteiro11
-{
+﻿using System;
 
-    class Atividade6
+namespace MyApp // Note: actual namespace depends on the project name.
+{
+    internal class Program
     {
-       static void Main(string[] args)
+        static void Main(string[] args)
         {
-            StreamReader file;
+          StreamReader file;
             file = new StreamReader("mat.txt");
             String line;
             int[,] matriz = new int[3, 3];
@@ -22,8 +20,11 @@ namespace Roteiro11
                     matriz[i, j] = number;
                 }
             }
+
             imprimeMatriz(matriz);
             file.Close();
+
+
             void imprimeMatriz(int[,] M)
             {
                 for (int i = 0; i < M.GetLength(0); i++)
@@ -37,7 +38,3 @@ namespace Roteiro11
         }
     }
 }
-
-
-
-
